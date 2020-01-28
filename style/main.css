@@ -158,6 +158,78 @@ a {
   margin-left: 100px;
 }
 
+.work {
+  margin-left: 50px;
+  margin-bottom: 100px;
+  background-color: var(--whitecolor);
+  opacity: 0.9;
+  margin:0 -200%;
+  padding:0 200%;
+  padding-bottom: 150px;
+  margin-top: 220px;
+}
+
+.work h1 {
+  /* font-family: Saol Display,seri; */
+  text-align: center;
+  margin: 0px;
+}
+
+.work-content h2 {
+  margin: 0px;
+  margin-left: 100px;
+  padding-top: 30px;
+}
+
+.achievement-content {
+  margin-left: 50px;
+  margin-bottom: 100px;
+  background-color: var(--whitecolor);
+  opacity: 0.9;
+  margin:0 -200%;
+  padding:0 200%;
+  padding-bottom: 450px;
+  margin-top: 220px
+}
+
+.achievement-content h1 {
+  text-align: center;
+  margin: 0px;
+}
+
+.achievement-content h2 {
+  margin: 0px;
+  margin-left: 100px;
+  padding-top: 30px;
+}
+
+.achievement-content ul {
+  margin-left: 100px;
+  padding: 0px;
+}
+
+.contact-content {
+  margin-left: 50px;
+  margin-bottom: 100px;
+  background-color: var(--whitecolor);
+  opacity: 0.9;
+  margin:0 -200%;
+  padding:0 200%;
+  padding-bottom: 550px;
+  margin-top: 220px
+}
+
+.contact-content h1 {
+  text-align: center;
+  margin: 0px;
+}
+
+.contact-content h2 {
+  margin: 0px;
+  margin-left: 100px;
+  padding-top: 30px;
+}
+
 footer {
   background-color: var(--footercolor);
   margin:0 -200%;
