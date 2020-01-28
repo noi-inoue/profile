@@ -23,6 +23,7 @@ body {
   position: relative;
   padding-bottom: 120px;/*←footerの高さ*/
   box-sizing: border-box;/*←全て含めてmin-height:100vhに*/
+  margin: 8px;
 }
 
 #about {
@@ -103,8 +104,22 @@ a {
 }
 
 .about-content h1 {
+  /* font-family: Saol Display,seri; */
   text-align: center;
   margin: 0px;
+}
+
+.about-content h2 {
+  margin-left: 100px;
+}
+
+.about-content h3 {
+  margin-left: 100px;
+}
+
+.about-content ul {
+  margin-left: 100px;
+  padding: 0px;
 }
 
 .introduction {
@@ -117,6 +132,12 @@ a {
 
 .introduction h2 {
   margin: 0px;
+  margin-left: 100px;
+  padding-top: 30px;
+}
+
+.introduction p {
+  margin-left: 100px;
 }
 
 .want-content {
@@ -129,6 +150,12 @@ a {
 
 .want-content h2 {
   margin: 0px;
+  margin-left: 100px;
+  padding-top: 30px;
+}
+
+.want-content p {
+  margin-left: 100px;
 }
 
 footer {
