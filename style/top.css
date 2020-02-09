@@ -4,6 +4,7 @@ html{
 	--whitecolor: white;
 	--testredcolor: red;
 	--testgreen: green;
+	--contentcolor: #6c6d6c;
 }
 
 header ul {
@@ -139,5 +140,43 @@ header ul {
 	nav ul li {
 		font-size: 18px;
 	}
+	
+	main {
+		background-color: var(--whitecolor);
+	}
 
+	#about-title {
+		color: var(--contentcolor);
+		text-align: center;
+		padding: 100px 0px 50px 0px;
+		margin: 0px;
+	}
+
+	.about-content {
+		color: var(--contentcolor);
+		padding-left: 450px;
+		padding-right: 300px;
+	}
+
+	#achievement-title {
+		color: var(--contentcolor);
+		text-align: center;
+		padding-top: 50px;
+	}
+
+	.achievement-category {
+		color: var(--contentcolor);
+		text-align: center;
+	}
+
+	.achievement-content {
+		color: var(--contentcolor);
+		padding-left: 450px;
+		padding-right: 300px;
+	}
+
+	#background-title {
+		color: var(--contentcolor);
+		text-align: center;
+	}
 }
