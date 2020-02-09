@@ -110,6 +110,7 @@ header ul {
 	header {
 		text-align: center;
 		margin-top: 40px;
+		margin-bottom: 500px;
 	}
 
 	header a {
@@ -138,5 +139,5 @@ header ul {
 	nav ul li {
 		font-size: 18px;
 	}
-	
+
 }
