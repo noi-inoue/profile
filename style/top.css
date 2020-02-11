@@ -234,4 +234,18 @@ header ul {
 	.background-content .background-btn {
 		transform: translateY(-50%) translateX(1em);
 	}
+
+	#contact h2 {
+		text-align: center;
+		color: var(--contentcolor);
+	}
+
+	#contact p {
+		text-align: center;
+		color: var(--contentcolor);
+	}
+
+	#contact {
+		padding-bottom: 50px;
+	}
 }
