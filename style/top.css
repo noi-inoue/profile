@@ -2,9 +2,9 @@ html{
 	scroll-behavior: smooth;
 	--bgimage: url(../photo/smbg7.png);
 	--whitecolor: white;
-	--testredcolor: red;
-	--testgreen: green;
 	--contentcolor: #6c6d6c;
+	--graycolor: #e7e7e7;
+	--paleorangecolor: #efe9df;
 }
 
 header ul {
@@ -464,4 +464,74 @@ header ul {
 	#contact {
 		padding-bottom: 50px;
 	}
+
+	#vue-profile {
+		background-color : var(--graycolor);
+		padding-bottom: 500px;
+	}
+
+	#vue-profile h2 {
+		margin: 0px;
+	}
+
+	.right-img {
+		position:relative;
+		/* margin: 0 0 0 auto; */
+		text-align: end;
+		margin-right: 400px;
+	}
+
+	.work-img1{
+		transform: rotate( -10deg );
+		position:absolute;
+		width: 300px;
+		height: 200px;
+	}
+
+	.work-img2 {
+		width: 300px;
+		height: 200px;
+		position:absolute;
+	}
+
+	.work-img3 {
+		width: 300px;
+		height: 200px;
+		transform: rotate( 10deg );
+		position:absolute;
+	}
+
+	#gftd-log {
+		background-color: var(--paleorangecolor);
+		padding-bottom: 500px;
+	}
+
+	#gftd-log h2 {
+		margin: 0px;
+	}
+
+	.left-img {
+		position:relative;
+	}
+
+	.work-img4{
+		transform: rotate( 10deg );
+		position:absolute;
+		width: 300px;
+		height: 200px;
+	}
+
+	.work-img5 {
+		width: 300px;
+		height: 200px;
+		position:absolute;
+	}
+
+	.work-img6 {
+		width: 300px;
+		height: 200px;
+		transform: rotate( -10deg );
+		position:absolute;
+	}
+	
 }
