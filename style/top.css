@@ -1,4 +1,5 @@
 html{
+	font-family: YuGothic;
 	scroll-behavior: smooth;
 	--bgimage: url(../photo/smbg7.png);
 	--whitecolor: white;
@@ -31,12 +32,13 @@ header ul {
 
 	header a {
 		color: var(--whitecolor);
+		text-decoration: none ;
 	}
 
 	#logo {
 		margin: 0px;
 		margin-left: 20px;
-
+		text-decoration: none ;
 	}
 
 	nav ul {
@@ -378,12 +380,14 @@ header ul {
 
 	header a {
 		color: var(--whitecolor);
+		text-decoration: none ;
 	}
 
 	#logo {
 		display: inline-block;
 		margin: 0px;
 		margin-right: 20px;
+		text-decoration: none ;
 	}
 
 	nav {
@@ -721,12 +725,14 @@ header ul {
 
 	header a {
 		color: var(--whitecolor);
+		text-decoration: none ;
 	}
 
 	#logo {
 		display: inline-block;
 		margin: 0px;
 		margin-right: 20px;
+		text-decoration: none ;
 	}
 
 	nav {
