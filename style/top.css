@@ -6,6 +6,8 @@ html{
 	--graycolor: #e7e7e7;
 	--paleorangecolor: #efe9df;
 	--chocolatecolor: #DDBAA6;
+	--footercolor: #000000;
+	--footerfontcolor: white;
 }
 
 header ul {
@@ -345,6 +347,18 @@ header ul {
 		padding-right: 10px;
 	}
 
+	footer {
+		padding-top: 100px;
+		padding-bottom: 100px;
+		text-align: center;
+		background-color: var(--footercolor);
+		opacity: 0.8;
+	}
+
+	small {
+		color: var(--footerfontcolor);
+	}
+
 }
 
 @media screen and (min-width: 481px) and (max-width: 1249px) {
@@ -605,7 +619,6 @@ header ul {
 		padding-top: 300px;
 		text-align: center;
 		color : var(--contentcolor);
-		
 	}
 
 	#works-title {
@@ -675,6 +688,18 @@ header ul {
 		color: var(--contentcolor);
 		padding-top: 10px;
 		padding-right: 10px;
+	}
+
+	footer {
+		padding-top: 100px;
+		padding-bottom: 100px;
+		text-align: center;
+		background-color: var(--footercolor);
+		opacity: 0.8;
+	}
+
+	small {
+		color: var(--footerfontcolor);
 	}
 
 }
@@ -921,7 +946,7 @@ header ul {
 	#life-log {
 		filter: drop-shadow(0px -20px 10px  rgb(0, 0, 0, 0.2));
 		background-color : var(--chocolatecolor);
-		padding-bottom: 300px;
+		padding-bottom: 200px;
 	}
 
 	#life-log h2 {
@@ -1005,6 +1030,18 @@ header ul {
 		color: var(--contentcolor);
 		padding-top: 10px;
 		padding-right: 10px;
+	}
+
+	footer {
+		padding-top: 100px;
+		padding-bottom: 100px;
+		text-align: center;
+		background-color: var(--footercolor);
+		opacity: 0.8;
+	}
+
+	small {
+		color: var(--footerfontcolor);
 	}
 	
 }
